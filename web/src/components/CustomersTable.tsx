@@ -7,11 +7,11 @@ const COLUMNS: { key: SortColumn | 'phone' | 'email' | 'actions'; label: string;
   [
     { key: 'name', label: 'Customer Name', sortable: true, width: '18%' },
     { key: 'company', label: 'Company', sortable: true, width: '13%' },
-    { key: 'phone', label: 'Phone Number', sortable: false, width: '14%' },
-    { key: 'email', label: 'Email', sortable: false, width: '20%' },
-    { key: 'country', label: 'Country', sortable: true, width: '13%' },
+    { key: 'phone', label: 'Phone Number', sortable: false, width: '13%' },
+    { key: 'email', label: 'Email', sortable: false, width: '17%' },
+    { key: 'country', label: 'Country', sortable: true, width: '11%' },
     { key: 'status', label: 'Status', sortable: true, width: '10%' },
-    { key: 'actions', label: '', sortable: false, width: '12%' },
+    { key: 'actions', label: '', sortable: false, width: '18%' },
   ];
 
 const ROW_HEIGHT = 57;

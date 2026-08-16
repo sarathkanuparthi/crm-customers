@@ -163,6 +163,7 @@ button:disabled {
 .profile {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 12px;
   border-top: 1px solid var(--border);
   padding-top: 20px;
@@ -192,7 +193,7 @@ button:disabled {
 }
 
 .profile select {
-  margin-left: auto;
+  flex-basis: 100%;
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 6px;
@@ -463,7 +464,8 @@ table.grid tbody tr:hover {
   border: 1px solid var(--border);
   background: #fff;
   border-radius: 8px;
-  padding: 6px 12px;
+  padding: 6px 10px;
+  white-space: nowrap;
   font-size: 12px;
   font-weight: 500;
   color: var(--muted-strong);
